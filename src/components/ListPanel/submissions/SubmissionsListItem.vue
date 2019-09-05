@@ -32,7 +32,7 @@
                                         <dfn>{{ item.reviewRounds[item.reviewRounds.length-1].status }}</dfn>
                                 </div>
                                  <div  class="pkpListPanelItem--submission__activity">
-                                        {{ item.dateStatusModified.label }} <i>{{ item.dateStatusModified.value | moment("from") }}</i>
+                                        {{ i18n.updated }} <i>{{ item.dateStatusModified | moment("from") }}</i>
                                 </div>
  
 
